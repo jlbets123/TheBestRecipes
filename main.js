@@ -22,10 +22,9 @@ function searchRender(data){
     ourRequest.onload = function(){
       if(ourRequest.status >= 200 && ourRequest.status < 400){
         var recipes = JSON.parse(ourRequest.responseText);
-        renderHTML(recipes)
-        console.log(recipes);
+        renderHTML(recipes);
       } else{
-        console.log("Returned an error");
+        console.log("An error ocurred");
       }
     }
   ourRequest.send()
