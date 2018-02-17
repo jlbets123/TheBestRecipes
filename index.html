@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Best Recipes</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+   <script src="https://developer.edamam.com/attribution/badge.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-white py-4 fixed-top">
+  <div class="container">
+    <a href="index.html" class="navbar-brand h1 bada55"><h1>The Best Recipes</h1></a>
+    <div class="navbar d-none">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">Home</li>
+      </ul>
+    </div>
+    <div class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-2" placeholder="Name, ingredients..." aria-label="Search" id="searchInput">
+      <button class="btn btn-bada55 my-2 my-2" id="searchBtn">Search</button>
+    </div>
+  </div>
+</nav>
+<section class="container bg-light d-none" id="containerList">
+  <div class="card-deck p-3" id="recipeList">
+  </div>
+    <div id="edamam-badge" data-color="transparent"></div>
+</section>
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>

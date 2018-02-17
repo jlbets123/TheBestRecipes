@@ -1,0 +1,27 @@
+body {
+  font-family: "Pacifico";
+  background-image: url(../img/vegan-2500x1405.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /*Means the background is fixed*/
+  height:100vh;
+}
+ .navbar {
+   color: #BADA55;
+ }
+nav.navbar {
+  border-bottom: 3px solid #BADA55;
+}
+.bada55{
+  color:#bada55;
+}
+
+.btn-bada55{
+  color:white;
+  background-color: #bada55;
+}
+
+#containerList{
+  margin-top: 8.5rem !important;
+}
