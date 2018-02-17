@@ -48,7 +48,7 @@ htmlString += `
   </div>`
 }
 } else {
-  htmlString = "<p>No recipes found.</p>";
+  htmlString = "<p class='lead no-recipes'>No recipes found.</p>";
 }
 recipeList.insertAdjacentHTML('beforeend', htmlString);
 }

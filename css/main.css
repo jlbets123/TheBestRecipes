@@ -1,4 +1,5 @@
 body {
+  margin-top:10em;
   font-family: "Pacifico";
   background-image: url(../img/vegan-2500x1405.jpg);
   background-size: cover;
@@ -12,6 +13,7 @@ body {
  }
 nav.navbar {
   border-bottom: 3px solid #BADA55;
+  opacity:0.9;
 }
 .bada55{
   color:#bada55;
@@ -22,6 +24,6 @@ nav.navbar {
   background-color: #bada55;
 }
 
-#containerList{
-  margin-top: 8.5rem !important;
+.no-recipes {
+font-family:sans-serif;
 }
