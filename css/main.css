@@ -1,7 +1,8 @@
 body {
   margin-top:10em;
   font-family: "Pacifico";
-  background-image: url(../img/vegan-2500x1405.jpg);
+  /*background-image: url(../img/vegan-2500x1405.jpg);*/
+  background-image: url(vegan-2500x1405.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
